@@ -1,7 +1,7 @@
 {
   "name": "express-app-fun",
   "version": "1.0.0",
-  "description": "testing the npm package domino-nsf",
+  "description": "having some fun with a few things",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
