@@ -1,11 +1,23 @@
-//var util = require('../util');
+var util = require('../util');
 
 module.exports = function (app) {
 
     app.get("/beers", function(req, res, next){
-        res.jsonp({
-            "message": '/beers'
-        });
+    	var resp = {};
+    	util.query("SELECT * FROM beers", function(err, data){
+    		if(err){
+    			resp = {
+    				"error": true,
+    				"message": err
+    			};
+    		} else {
+    			resp = {
+    				"error": false,
+    				"data": data
+    			};
+    		}
+    	});
+        res.jsonp(resp);
     });
     
 };

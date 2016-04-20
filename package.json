@@ -1,24 +1,22 @@
 {
   "name": "express-app-fun",
   "version": "1.0.0",
-  "description": "testing the npm package domino-nsf",
+  "description": "having some fun with an IBM i",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "author": "Eric McCormick",
-  "repository" : {
-    "type" : "git",
-    "url" : "git+https://github.com/edm00se/express-app-fun.git"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edm00se/express-app-fun.git"
   },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/edm00se/express-app-fun/blob/master/LICENSE.md"
-  },
+  "license": "MIT",
   "dependencies": {
     "express": "^4.13.4",
-    "express-toobusy": "0.0.3"
+    "express-toobusy": "0.0.3",
+    "jdbc-pro": "0.0.15"
   },
   "devDependencies": {}
 }
