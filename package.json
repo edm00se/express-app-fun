@@ -1,7 +1,7 @@
 {
   "name": "express-app-fun",
   "version": "1.0.0",
-  "description": "having some fun with an IBM i",
+  "description": "having some fun with a Notes/Domino NSF",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,9 +14,9 @@
   },
   "license": "MIT",
   "dependencies": {
+    "domino-nsf": "0.0.3",
     "express": "^4.13.4",
-    "express-toobusy": "0.0.3",
-    "jdbc-pro": "0.0.15"
+    "express-toobusy": "0.0.3"
   },
   "devDependencies": {}
 }
