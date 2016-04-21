@@ -11,6 +11,7 @@ function initSession(cb){
 // terminate Session
 function closeSession(){
   domino.termSession();
+  console.log('Domino session terminated');
 };
 
 // get Document contents by UNID
