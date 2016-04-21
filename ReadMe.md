@@ -8,7 +8,7 @@ This is a project which:
 
 ## Installation and Use
 
-* `git clone `
+* `git clone -b iseries https://github.com/edm00se/express-app-fun.git`
 * download the zip from [jt400.sourceforge.net](http://jt400.sourceforge.net/)
 * extract `jt400.jar` to the project's `lib/` path
 * run `npm install`
