@@ -1,4 +1,4 @@
-var jdbc = new ( require('jdbc') );
+var jdbc = new ( require('jdbc-pro') );
 var dbConf = require('../config/db.js');
 
 // initialize the connection
