@@ -8,7 +8,7 @@ This is a project which:
 
 ## Installation and Use
 
-* `git clone `
+* `git clone https://github.com/edm00se/express-app-fun.git`
 * `npm install`
 * `npm start`
 * open browser to [`127.0.0.1:3333`](http://127.0.0.1:3333)
